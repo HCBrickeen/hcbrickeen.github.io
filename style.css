@@ -14,12 +14,20 @@ body {
 h1 {
 	text-align: center;
 	color: white;
+	font-family: monospace;
+	margin-left: vw;
+	margin-right: vw; /*vw keeps the text aligned with window size, will help with formatting later*/
+	position: relative;
+
 }
 
 p1 {
 	text-align: center;
 	color: white;
-	font-size: medium;
+	font-size: large;
+	font-family: monospace;
+	position: relative;
+	top: 175px; /*Moves paragraph to middle, may need something more robust when more are added*/
 }
 
 footer {

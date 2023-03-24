@@ -1,6 +1,3 @@
-html {
-}
-
 header {
 	background-color: #232323;
 	
@@ -10,19 +7,27 @@ header {
 }
 body {
 	background-color: #325278;
-	margin: 0px; /*Lets header sit at the actual top of the site*/
+	margin: 0px; /*Lets header sit at the top of the site, may need to change later*/
 	
 }
 
 h1 {
 	text-align: center;
 	color: white;
+	font-family: monospace;
+	margin-left: vw;
+	margin-right: vw; /*vw keeps the text aligned with window size, will help with formatting later*/
+	position: relative;
+
 }
 
 p1 {
 	text-align: center;
 	color: white;
-	font-size: medium;
+	font-size: large;
+	font-family: monospace;
+	position: relative;
+	top: 175px; /*Moves paragraph to middle, may need something more robust when more are added*/
 }
 
 footer {
