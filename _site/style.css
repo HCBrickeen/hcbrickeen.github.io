@@ -7,6 +7,8 @@ header {
 }
 body {
 	background-color: #325278;
+	/*background-image: url('');*/
+	background-size: cover;
 	margin: 0px; /*Lets header sit at the top of the site, may need to change later*/
 	
 }
@@ -15,19 +17,20 @@ h1 {
 	text-align: center;
 	color: white;
 	font-family: monospace;
-	margin-left: vw;
-	margin-right: vw; /*vw keeps the text aligned with window size, will help with formatting later*/
-	position: relative;
 
 }
 
-p1 {
+p {
 	text-align: center;
 	color: white;
 	font-size: large;
 	font-family: monospace;
+}
+
+.position {
 	position: relative;
-	top: 175px; /*Moves paragraph to middle, may need something more robust when more are added*/
+	margin-left: vw;
+	margin-right: vw; /*vw keeps the text aligned with window size, will help with formatting later*/
 }
 
 footer {
