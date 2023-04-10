@@ -7,7 +7,7 @@ header {
 }
 body {
 	background-color: #325278;
-	/*background-image: url('');*/
+	background: radial-gradient(circle, #325278,#294663);
 	background-size: cover;
 	margin: 0px; /*Lets header sit at the top of the site, may need to change later*/
 	
