@@ -1,0 +1,42 @@
+header {
+	background-color: #232323;
+	
+	width: 100%;
+	height: 10px;
+
+}
+body {
+	background-color: #325278;
+	background: radial-gradient(circle, #325278,#294663);
+	background-size: cover;
+	margin: 0px; /*Lets header sit at the top of the site, may need to change later*/
+	
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: 'Phudu';
+
+}
+
+p {
+	text-align: center;
+	color: white;
+	font-size: x-large;
+	font-family: monospace;
+}
+
+.position {
+	position: relative;
+	margin-left: vw;
+	margin-right: vw; /*vw keeps the text aligned with window size, will help with formatting later*/
+}
+
+footer {
+	background-color: #232323;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 10px;
+}
