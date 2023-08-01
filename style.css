@@ -19,6 +19,12 @@ h1 {
 	font-family: 'Phudu';
 
 }
+h2 {
+	text-align: center;
+	color: gray;
+	font-family: monospace;
+
+}
 
 p {
 	text-align: center;
