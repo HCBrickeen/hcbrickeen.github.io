@@ -86,26 +86,26 @@ footer {
 }
 @keyframes delayfadeIn {
 	0% {opacity: 0;}
-	66% {opacity: 0}
+	50% {opacity: 0}
 	to {opacity: 1;}
 }
 @-webkit-keyframes  delayfadeIn {
 	0% {opacity: 0;}
-	66% {opacity: 0}
+	50% {opacity: 0}
 	to {opacity: 1;}
 }
 @-moz-keyframes  delayfadeIn {
 	0% {opacity: 0;}
-	66% {opacity: 0}
+	50% {opacity: 0}
 	to {opacity: 1;}
 }
 @-ms-keyframes  delayfadeIn {
 	0% {opacity: 0;}
-	66% {opacity: 0}
+	50% {opacity: 0}
 	to {opacity: 1;}
 }
 @-o-keyframes  delayfadeIn {
 	0% {opacity: 0;}
-	66% {opacity: 0}
+	50% {opacity: 0}
 	to {opacity: 1;}
 }
