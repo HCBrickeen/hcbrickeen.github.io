@@ -50,6 +50,14 @@ p {
 	-o-animation: 3s ease 0s normal forwards 1 delayfadeIn;
 }
 
+.para-fade2 {
+	animation: 6s ease 0s normal forwards 1 delayfadeIn;
+	-webkit-animation:  6s ease 0s normal forwards 1 delayfadeIn;
+	-moz-animation: 6s ease 0s normal forwards 1 delayfadeIn;
+	-ms-animation: 6s ease 0s normal forwards 1 delayfadeIn;
+	-o-animation: 6s ease 0s normal forwards 1 delayfadeIn;
+}
+
 .position {
 	position: relative;
 	margin-left: vw;
